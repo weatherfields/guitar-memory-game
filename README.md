@@ -2,8 +2,6 @@
 
 Deployed ... https://fathomless-sea-44702.herokuapp.com/
 
-![guitar click game](./images/guitargame.png)
-
 Test your memory skills with these cool looking guitars!
 
 ## How to play:
