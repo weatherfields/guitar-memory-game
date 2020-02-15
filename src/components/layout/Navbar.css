@@ -1,0 +1,44 @@
+/* @import url("https://fonts.googleapis.com/css?family=Roboto"); */
+@font-face {
+  font-family: handmade;
+  src: url("../../StayWriter-Handmade.otf") format("opentype");
+}
+
+.navbar {
+  font-family: handmade;
+  text-align: center;
+  border-bottom: solid 1px var(--light-color);
+}
+#pinkbear {
+  justify-items: center;
+  display: grid;
+  grid-template-areas: "li li li";
+}
+a {
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+}
+li {
+  padding: 0.5rem;
+  list-style: none;
+}
+
+#navImgGtr {
+  transform: rotate(-33deg);
+  max-width: 20vw;
+}
+#navImgGtrR {
+  transform: rotate(33deg);
+  max-width: 20vw;
+}
+
+#nav-item {
+  font-size: min(max(1rem, 6vw), 2rem);
+}
+#gtr-title {
+  font-size: min(max(1rem, 6vw), 3rem);
+}
+.nav-text {
+  font-size: min(max(1rem, 4vw), 1.9rem);
+}
